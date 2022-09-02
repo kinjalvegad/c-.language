@@ -1,0 +1,17 @@
+//input a character.wap that convert upper case letter into lower case & lower case letter into upper case.
+#include<ctype.h>
+void main()
+{
+	char c,x;
+	clrscr();
+	printf("Enter the character");
+	scanf("%c",&c);
+	if(c>=97 && c<=122)
+		x=toupper(c);
+	else if (c>=65 && c<90)
+		x=tolower(c);
+	else
+		 x=c;
+		printf("%c is now %c",c,x);
+	getch();
+}
