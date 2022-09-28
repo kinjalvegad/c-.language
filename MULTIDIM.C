@@ -1,6 +1,4 @@
-//multi dimensional string
-#include<stdio.h>
-#include<conio.h>
+//multi  dimensional string//
 void main()
 {
 	char s1[10][20];
@@ -8,12 +6,12 @@ void main()
 	clrscr();
 	for(i=0;i<10;i++)
 	{
-		printf("Enetr name-%d:",i+1);
+		printf("Enter name-%d:",i+1);
 		scanf("%s",s1[i]);
-	}
-	for(i=0;i<10;i++)
-	{
-		printf("\n name-%d=%s",i+1,s1[i]);
+       }
+       for(i=0;i<10;i++)
+       {
+	printf("\n name-%d=%s",i+1,s1[i]);
        }
        getch();
 }
