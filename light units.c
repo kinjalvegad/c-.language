@@ -30,5 +30,5 @@ int main()
 
     printf("Electricity Bill = Rs. %.2f", total_amt);
 
-    return 0;
+    Getch();
 }
